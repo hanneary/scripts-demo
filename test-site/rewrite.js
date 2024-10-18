@@ -1,5 +1,5 @@
 (function() {
-    const proxyUrl = 'https://scripts.evervault.dev/';
+    const proxyUrl = 'https://script-monitor-staging.evervault.workers.dev/';
 
     // Function to proxy script elements
     function proxyScripts() {

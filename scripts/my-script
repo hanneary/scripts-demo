@@ -4,7 +4,7 @@
     const json = await response.json();
     console.log( json );
 
-    const response1 = await fetch( 'https://my-malicious-site.com/todos/1' );
+    const response1 = await fetch( 'https://my-very-malicious-site.com/todos/1' );
     const json1 = await response.json();
     console.log( json1 );
 } )();
